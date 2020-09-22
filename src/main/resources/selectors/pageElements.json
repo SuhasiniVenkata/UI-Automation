@@ -1,0 +1,53 @@
+{
+	"timestamps": {
+		"url": "http://localhost:3000/",
+		"registration": {
+			"Home": "//*[@id='nav-mobile']/li[3]/a",
+			"UserName": "//*[@id='user_username']",
+			"Email": "//*[@id='user_email']",
+			"Password": "//*[@id='user_password']",
+			"Done": "/html/body/main/div/div/form/div[4]/button/i",
+			
+			"Logout": "//*[@id='nav-mobile']/li[3]/a"
+		},
+		"Login": {
+			"Home": "//*[@id='nav-mobile']/li[2]/a",
+			"EditUserName":"//*[@id='user-username']",
+			"EditEmail": "//*[@id='user_email']",
+			"Email": "//*[@id='session_email']",
+			"Password": "//*[@id='session_password']",
+			"Done": "/html/body/main/div/div/form/div[3]/button/i",
+			"InvalidPassword":"/html/body/main/div/text()",
+			"Edit_Profile":"//*[@id='user-edit']/a/i",
+			"ClickProfile":"/html/body/main/div/div/table/tbody/tr/td[1]/a",
+			"DeleteProfile":"/html/body/main/div/div/form/div[4]/div/div[2]/a/i",
+			"SaveProfile":"/html/body/main/div/div/form/div[4]/div/div[1]/button/i",
+			"Logout": "//*[@id='nav-mobile']/li[3]/a",
+			"AlertPopUp":"/html/body/main/div"
+		},
+		"NewNote": {
+			"Home": "//*[@id='nav-mobile']/li[1]/a",
+			"Title": "//*[@id='note_title']",
+			"Note_edit":"//*[@id='note-edit-link']/a/i",
+			"NoteLink":"/html/body/main/div/div/table/tbody/tr/td[1]/a",
+			
+			"Note_Delete":"/html/body/main/div/div[1]//div/a/i",
+			"Done": "/html/body/main/div/div/form/div[3]/button/i",
+			"Logout": "//*[@id='nav-mobile']/li[3]/a"
+		},
+		"Upload": {
+			"Upload_Link": "//*[@id='video_link']",
+			"Title": "//*[@id='video_title']",
+			"Done": "//*[@id='video-submit']/i",
+			"TitleEdit":"//*[@id='video-list']/div[2]/div[2]/a/i",
+			"LinkEdit":"///*[@id='video-title-form']",
+			"TitleEditDone":"//*[@id='video-list']/div[3]/div/form/div[1]/div[2]/button/i",
+			"getTime": "//*[@id='get-time']/i",
+			"addTime": "//*[@id='time-input']",
+			"text_body": "//*[@id='textarea1']",
+			"body_Done": "/html/body/main/div/div[3]/div[1]/div/div/form/div[2]/div[2]/button/i",
+			"Note_Edit": "//*[@id='note-edit-link']/a/i",
+			"Note_Delete": "//*[@id='note-edit-link']/a/i"
+		}
+	}
+}

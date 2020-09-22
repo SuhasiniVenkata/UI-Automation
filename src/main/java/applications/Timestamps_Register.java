@@ -11,7 +11,7 @@ public class Timestamps_Register extends Page {
 	}
 
 	static Timestamps_Register sp = new Timestamps_Register();
-
+	// Registration user successfully.
 	public void Successful_Tests() {
 
 		sp.go();
@@ -24,7 +24,7 @@ public class Timestamps_Register extends Page {
 		sp.click("timestamps.registration.Logout");
 
 	}
-
+ // Registration user with invalid format
 	public void Negative_Tests() {
 		sp.go();
 		sp.click("timestamps.registration.Home");
@@ -32,6 +32,8 @@ public class Timestamps_Register extends Page {
 		sp.enter_text("timestamps.registration.Email", "Suhasini");
 		sp.AssertTest("Please include an '@' in the email address.Test_nonRegistered is missing @",
 				"Please include an '@' in the email address.Test_nonRegistered is missing @");
+		sp.enter_text("timestamps.registration.Password", "np12345");
+		sp.click("timestamps.registration.Done");
 		sp.quit();
 
 	}
